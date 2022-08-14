@@ -1,35 +1,75 @@
 {
   "current": {
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_tumblr_link": "http:\/\/shopify.tumblr.com",
+    "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "social_vimeo_link": "https:\/\/vimeo.com\/shopify",
     "sections": {
       "header": {
         "type": "header",
-        "settings": {}
-      },
-      "hero-1": {
-        "type": "hero",
         "settings": {
-          "hero_size": "large",
-          "text_size": "large"
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Galaxy_Coast_Logo-200x50-bg.png",
+          "logo_max_width": 200,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
         }
       },
       "feature-row": {
         "type": "feature-row",
-        "settings": {}
+        "settings": {
+          "image": "shopify:\/\/shop_images\/mars-NoAtrib-required_1920.jpg",
+          "layout": "left",
+          "title": "Unlock the mysteries above",
+          "text": "<p>Experience unpararelled clarity of our distant planetary neighbors. <\/p>",
+          "button_label": "Click To Unlock Mysteries",
+          "button_link": "shopify:\/\/products\/the-amazing-bft2000-telescope"
+        }
       },
       "feature-columns": {
         "type": "feature-columns",
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/fast-focus-wheel.jpg",
+              "title": "BFT2000 is easy-to-use and powerful",
+              "text": "<p>We aim to provide the perfect combination of quality, value, features, and power for the first time telescope use. It will be a surprise for family or friends on holidays or birthdays.<\/p>",
+              "button_label": "Explore",
+              "button_link": "shopify:\/\/products\/the-amazing-bft2000-telescope"
+            }
           },
           "feature-columns-1": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/eye-peice.jpg",
+              "title": "Perfect Optical Quality",
+              "text": "<p>700mm focal length and 70mm aperture, fully coated optical glass lens, high transmission coating. The image is clearer and brighter. With eyepieces and Barrold lenses, the magnification is 28x-210x. <\/p>",
+              "button_label": "Explore",
+              "button_link": "shopify:\/\/products\/the-amazing-bft2000-telescope"
+            }
           },
           "feature-columns-2": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/tripod.jpg",
+              "title": "Phone Adapter and Tripod",
+              "text": "<p>Full-size stainless steel adjustable tripod that can adapt to any height and angle, bringing you stability, safety, and durability. The phone adapter allows you to record the beauty and share it with your friends.<\/p>",
+              "button_label": "Explore",
+              "button_link": "shopify:\/\/products\/the-amazing-bft2000-telescope"
+            }
           }
         },
         "block_order": [
@@ -38,19 +78,33 @@
           "feature-columns-2"
         ],
         "settings": {
-          "title": ""
+          "title": "BFT2000 has superior optics",
+          "align_text": "center"
         }
       },
       "collection": {
         "type": "collection",
         "settings": {
-          "grid": 4
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "hero-2": {
         "type": "hero",
         "settings": {
-          "text_size": "large"
+          "image": "shopify:\/\/shop_images\/telescope-1.jpg",
+          "alignment": "top",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large",
+          "title": "Professional Telescope for Beginners",
+          "text": "<p>The first time kids, adults, and beginners can see the stars.<\/p>",
+          "button_label": "Click To See The Stars",
+          "button_link": "shopify:\/\/products\/the-amazing-bft2000-telescope"
         }
       },
       "quotes": {
@@ -58,15 +112,24 @@
         "blocks": {
           "quotes-0": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>I first aimed at the moon with a 25mm eyepiece, and then switched to a 10mm. The moon became very large like it was in front of me. Lately the moon was big for a few days it was REALLY COOL - the moon was big and clear in the scopes, I could see the craters on the moon. LOVE IT!<\/p>",
+              "author": "David Mars"
+            }
           },
           "quotes-1": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>I would consider this a professional telescope for the beginning to intermediate astronomer, This Hawkko telescope is easy-to-use and very powerful. Having the perfect combination of quality, value, features, and power for the first-time telescope user like us. I cannot wait for them to unwrap this as it is more like a family gift and will be super cool.<\/p>",
+              "author": "Penny Saturn"
+            }
           },
           "quotes-2": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>I am a photographer and thought I’d try out a telescope because I mostly get photos of the moon.  The part I like most about this one is the ability to use it with a phone. It has a connection so you can take photos of whatever you see. It worked with my iPhone XS flawlessly. The vision is clear and concise. <\/p>",
+              "author": "Susan Jupiter"
+            }
           }
         },
         "block_order": [
@@ -75,7 +138,7 @@
           "quotes-2"
         ],
         "settings": {
-          "title": ""
+          "title": "Checkout what our customers have to say"
         }
       },
       "image-bar": {
@@ -83,15 +146,30 @@
         "blocks": {
           "image-bar-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/satellite-g4d01deae3_424x640_0a32d8a5-cb89-4a2a-8b3f-ef4af0dbfb41.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
           },
           "image-bar-1": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/astronomy-g765c7f935_426x640_836887a6-a8ac-4fc6-a5ba-ad89909eed02.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
           },
           "image-bar-2": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jupiter_400x533_7d2285f0-cf50-484f-a35e-ffd52ea98cd9.jpg",
+              "alignment": "top",
+              "link": "",
+              "cta_label": ""
+            }
           }
         },
         "block_order": [
@@ -99,36 +177,91 @@
           "image-bar-1",
           "image-bar-2"
         ],
-        "settings": {}
+        "settings": {
+          "section_height": "medium"
+        }
       },
       "footer": {
         "type": "footer",
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "settings": {}
+            "settings": {
+              "title": "Navigation",
+              "menu": "footer"
+            }
+          },
+          "ddc8391c-9c53-475e-883e-6be60f328e45": {
+            "type": "text",
+            "settings": {
+              "title": "About US",
+              "text": "<p>We specialize in providing the hightest quality ameture telescopes to astromy enthusists. <\/p>"
+            }
+          },
+          "4d391232-2195-43d6-9df3-1183ba5fe3d0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Policy",
+              "menu": "policies"
+            }
           },
           "footer-1": {
             "type": "newsletter",
-            "settings": {}
+            "settings": {
+              "title": "Keep informed about astronomical events through our newsletter. Subscribe Now!"
+            }
           }
         },
         "block_order": [
           "footer-0",
+          "ddc8391c-9c53-475e-883e-6be60f328e45",
+          "4d391232-2195-43d6-9df3-1183ba5fe3d0",
           "footer-1"
         ],
         "settings": {
-          "show_payment_icons": true
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_currency_selector": false,
+          "show_locale_selector": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "165975465275473ab1": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "EXPLORE THE PLANETS AND STARS",
+          "text": "",
+          "text_size": "medium"
         }
       }
     },
     "content_for_index": [
-      "hero-1",
+      "hero-2",
       "feature-row",
       "feature-columns",
-      "collection",
-      "hero-2",
       "quotes",
+      "165975465275473ab1",
       "image-bar"
     ]
   },
